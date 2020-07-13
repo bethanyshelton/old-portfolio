@@ -9,23 +9,56 @@ body {
 	src: url(/fonts/aAutoSignature.ttf);
 }
 
+/* HOME SECTION */
+
 #home {
-	background-image: url(/images/home-img.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	height: 100vh;
 	color: #ebcbca;
+	text-align: center;
+	font-family: "Cormorant Garamond", serif;
+	position: relative;
 }
 
-h1 {
-	background-color: #1f1f3366;
-	margin-top: 0;
+.title-text {
+	padding-top: 17%;
+	background: url(/images/home-img.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title {
+	margin: 0;
 	font-family: title-font;
-	font-size: 5rem;
-	padding-top: 2%;
-	padding-left: 2%;
+	font-size: 6rem;
 }
 
-h2 {
-	font-family: "Lora", serif;
+.subtitle {
+	font-size: 1.75rem;
+}
+
+/* NAVBAR */
+
+nav {
+	background-color: #ebcbca;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+	color: #1f1f33;
+	font-size: 18px;
 }
