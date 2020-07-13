@@ -1,0 +1,31 @@
+body {
+	background-color: #1f1f33;
+	margin: 0;
+	font-family: "Ubuntu", sans-serif;
+}
+
+@font-face {
+	font-family: title-font;
+	src: url(/fonts/aAutoSignature.ttf);
+}
+
+#home {
+	background-image: url(/images/home-img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	color: #ebcbca;
+}
+
+h1 {
+	background-color: #1f1f3366;
+	margin-top: 0;
+	font-family: title-font;
+	font-size: 5rem;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+h2 {
+	font-family: "Lora", serif;
+}
