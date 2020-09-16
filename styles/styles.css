@@ -51,10 +51,11 @@ nav {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	padding: 0;
 	padding-top: 15px;
 }
 
-.logo {
+.nav-logo {
 	height: 50px;
 }
 
@@ -68,4 +69,37 @@ nav {
 	text-decoration: none;
 	color: #1f1f33;
 	font-size: 18px;
+}
+
+/* ABOUT SECTION */
+
+#about {
+	background-color: #ebcbca;
+}
+
+.headshot {
+	width: 250px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+	background-color: #ebcbca;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+	text-align: center;
+}
+
+#footer h2 {
+	font-family: "Cormorant Garamond", serif;
+	font-size: 38px;
+	color: #ebcbca;
+}
+
+.footer-logo {
+	display: block;
+	margin: auto;
 }
