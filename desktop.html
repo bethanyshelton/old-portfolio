@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@500&family=Montserrat&display=swap"
         rel="stylesheet">
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -24,7 +27,7 @@
             </div>
         </div>
         <!-- NAVBAR -->
-        <nav>
+        <nav id="navbar">
             <div class="left-links">
                 <a class="link" href="#projects">PROJECTS</a>
             </div>
@@ -37,28 +40,44 @@
         </nav>
     </header>
 
-    <!-- PROJECTS -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="card"><img src="images/brick-wall.jpg"></div>
-        <div class="card"><img src="images/brick-wall.jpg"></div>
-        <div class="card"><img src="images/brick-wall.jpg"></div>
-    </section>
+    <div class="content">
+        <!-- PROJECTS -->
+        <section id="projects" class="dark-background">
+            <h2>Projects</h2>
+            <div class="card"><img src="images/brick-wall.jpg"></div>
+            <div class="card"><img src="images/brick-wall.jpg"></div>
+            <div class="card"><img src="images/brick-wall.jpg"></div>
+        </section>
 
-    <!-- CONTACT -->
-    <section id="contact">
-        <h2>Let's Chat!</h2>
-        <p>text about contacting me</p>
-        <form action=""></form>
-        <a href="" class="social">Github</a>
-        <a href="" class="social">LinkedIn</a>
-        <a href="" class="social">Twitter</a>
-    </section>
+        <!-- SKILLS-->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>NodeJS</li>
+                <li>Express</li>
+            </ul>
+        </section>
 
-    <!-- FOOTER -->
-    <footer id="footer">
-        <p>&copy; 2020 Bethany Shelton</p>
-    </footer>
+        <!-- CONTACT -->
+        <section id="contact" class="dark-background">
+            <h2>Let's Chat!</h2>
+            <p>text about contacting me</p>
+            <form action=""></form>
+            <a href="" class="social">Github</a>
+            <a href="" class="social">LinkedIn</a>
+            <a href="" class="social">Twitter</a>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <p>&copy; 2020 Bethany Shelton</p>
+        </footer>
+    </div>
+
+    <script src="/scripts/scripts.js"></script>
 </body>
 
 </html>
