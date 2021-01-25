@@ -10,6 +10,13 @@ body {
 	color: #dededc;
 }
 
+/* .section-title {
+	font-family: "Cormorant Infant", serif;
+	text-align: center;
+	padding: 2%;
+	font-size: 2rem;
+} */
+
 @font-face {
 	font-family: aAutoSignature;
 	src: url(/fonts/aAutoSignature.ttf);
@@ -25,11 +32,17 @@ body {
 }
 
 .background-img {
+	/* photo background */
 	background: url(/images/brick-wall.jpg) no-repeat left bottom fixed;
-	-webkit-background-size: cover;
+	/* -webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover; */
 	background-size: cover;
+	/* padding: 4rem 2rem; */
+	/* css grid layout */
+	/* display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
 }
 
 .title-text {
@@ -55,6 +68,7 @@ nav {
 	bottom: 0;
 	width: 100%;
 	padding: 1% 0 0.65% 0;
+	height: 45px;
 }
 
 .left-links,
@@ -75,18 +89,10 @@ nav {
 	font-size: 2.5rem;
 }
 
-.content {
-	padding-top: 16px;
-}
-
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
-}
-
-.sticky + .content {
-	padding-top: 60px;
 }
 
 /* NAVBAR AND MENU FOR MOBILE */
@@ -124,15 +130,22 @@ nav a.icon {
 
 /* PROJECTS SECTION */
 
-#projects {
-	margin-top: 50px;
-	background-color: #1f1f33;
-	color: #dededc;
+.grid {
+	padding: 4% 6%;
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card {
+	text-align: center;
+	padding: 3% 0;
 }
 
 #projects img {
 	width: 300px;
 	height: 300px;
+	border-radius: 7%;
 }
 
 /* SKILLS SECTION */
