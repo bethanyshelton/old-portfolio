@@ -10,12 +10,12 @@ body {
 	color: #dededc;
 }
 
-/* .section-title {
+.section-title {
 	font-family: "Cormorant Infant", serif;
 	text-align: center;
 	padding: 2%;
 	font-size: 2rem;
-} */
+}
 
 @font-face {
 	font-family: aAutoSignature;
@@ -71,8 +71,7 @@ nav {
 	height: 45px;
 }
 
-.left-links,
-.center-link,
+.title-link,
 .right-links {
 	display: inline;
 }
@@ -81,12 +80,13 @@ nav {
 	text-decoration: none;
 	color: #dededc;
 	font-size: 22px;
-	padding: 0% 7%;
+	padding: 0% 4%;
 }
 
 .nav-title {
 	font-family: aAutoSignature;
 	font-size: 2.5rem;
+	padding: 0% 6% 0% 1%;
 }
 
 .sticky {
@@ -149,6 +149,17 @@ nav a.icon {
 }
 
 /* SKILLS SECTION */
+
+#skills {
+	padding: 4% 20%;
+	text-align: center;
+}
+
+.list {
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 
 /* CONTACT SECTION */
 
