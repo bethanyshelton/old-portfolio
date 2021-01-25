@@ -1,27 +1,26 @@
 body {
-	background-color: #1f1f33;
+	background-color: #dededc;
+	color: #1f1f33;
 	margin: 0;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
-	font-family: title-font;
+	font-family: aAutoSignature;
 	src: url(/fonts/aAutoSignature.ttf);
 }
 
 /* HOME SECTION */
 
 #home {
+	font-family: "Cormorant Infant", serif;
 	height: 100vh;
-	color: #ebcbca;
 	text-align: center;
-	font-family: "Cormorant Garamond", serif;
 	position: relative;
 }
 
 .background-img {
-	height: 100vh;
-	background: url(/images/home-img.jpg) no-repeat center center fixed;
+	background: url(/images/brick-wall.jpg) no-repeat left bottom fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -29,77 +28,95 @@ body {
 }
 
 .title-text {
-	padding-top: 14%;
-	padding-bottom: 12%;
-	text-shadow: 1px 1px 2px #1f1f33;
+	padding-top: 16%;
+	padding-bottom: 14%;
 }
 
 .title {
 	margin: 0;
-	font-family: title-font;
+	font-family: "Cormorant Infant", serif;
 	font-size: 6rem;
 }
 
 .subtitle {
-	font-size: 1.75rem;
+	font-size: 2.5rem;
 }
 
-/* NAVBAR */
+/* NAVBAR FOR DESKTOP */
 
 nav {
-	background-color: #ebcbca;
+	background-color: #1f1f33;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	padding: 0;
-	padding-top: 15px;
-}
-
-.nav-logo {
-	height: 50px;
+	padding: 1% 0 0.65% 0;
 }
 
 .left-links,
-.center-logo,
+.center-link,
 .right-links {
 	display: inline;
 }
 
 .link {
 	text-decoration: none;
-	color: #1f1f33;
-	font-size: 18px;
+	color: #dededc;
+	font-size: 22px;
+	padding: 0% 7%;
 }
 
-/* ABOUT SECTION */
-
-#about {
-	background-color: #ebcbca;
+.nav-title {
+	font-family: aAutoSignature;
+	font-size: 2.5rem;
 }
 
-.headshot {
-	width: 250px;
+/* NAVBAR AND MENU FOR MOBILE */
+
+/* nav {
+	overflow: hidden;
+	background-color: #1f1f33;
+	color: #dededc;
+	position: relative;
 }
+
+nav .title-text {
+	font-size: 1.25rem;
+	margin-left: 5%;
+}
+
+nav .menu-links {
+	display: none;
+}
+
+nav a {
+	color: #dededc;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+nav a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+	background-color: #1f1f33;
+	color: #dededc;
+}
+
+#projects img {
+	width: 300px;
+	height: 300px;
+}
+
+/* SKILLS SECTION */
 
 /* CONTACT SECTION */
 
-#contact {
-	background-color: #ebcbca;
-}
-
 /* FOOTER SECTION */
-
-#footer {
-	text-align: center;
-}
-
-#footer h2 {
-	font-family: "Cormorant Garamond", serif;
-	font-size: 38px;
-	color: #ebcbca;
-}
-
-.footer-logo {
-	display: block;
-	margin: auto;
-}
