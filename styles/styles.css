@@ -14,7 +14,12 @@ body {
 	font-family: "Cormorant Infant", serif;
 	text-align: center;
 	padding: 2%;
-	font-size: 2rem;
+	margin-top: 0;
+	font-size: 22px;
+}
+
+.section-text {
+	font-size: 1.25rem;
 }
 
 @font-face {
@@ -151,16 +156,56 @@ nav a.icon {
 /* SKILLS SECTION */
 
 #skills {
-	padding: 4% 20%;
-	text-align: center;
+	padding: 4% 25%;
 }
 
 .list {
 	display: grid;
 	align-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	text-align: left;
 }
 
 /* CONTACT SECTION */
 
+#contact {
+	text-align: center;
+	padding: 2%;
+}
+
+.email-form {
+	display: grid;
+}
+
+.top-box,
+.middle-box,
+.bottom-box {
+	width: 430px;
+	height: 3rem;
+	margin: auto;
+}
+
+.top-box {
+	/* margin-top: 10px; */
+	border-radius: 5px 5px 0 0;
+}
+
+.middle-box {
+	border-radius: 0;
+}
+
+.bottom-box {
+	margin-bottom: 10px;
+	border-radius: 0 0 5px 5px;
+	background-color: aqua;
+}
+
+input[type="textarea"] {
+	height: 8rem;
+}
+
 /* FOOTER SECTION */
+
+#footer {
+	text-align: center;
+}
