@@ -1,0 +1,211 @@
+body {
+	background-color: #dededc;
+	color: #1f1f33;
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+.dark-background {
+	background-color: #1f1f33;
+	color: #dededc;
+}
+
+.section-title {
+	font-family: "Cormorant Infant", serif;
+	text-align: center;
+	padding: 2%;
+	margin-top: 0;
+	font-size: 22px;
+}
+
+.section-text {
+	font-size: 1.25rem;
+}
+
+@font-face {
+	font-family: aAutoSignature;
+	src: url(/fonts/aAutoSignature.ttf);
+}
+
+/* HOME SECTION */
+
+#home {
+	font-family: "Cormorant Infant", serif;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+}
+
+.background-img {
+	/* photo background */
+	background: url(/images/brick-wall.jpg) no-repeat left bottom fixed;
+	/* -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; */
+	background-size: cover;
+	/* padding: 4rem 2rem; */
+	/* css grid layout */
+	/* display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+}
+
+.title-text {
+	padding-top: 16%;
+	padding-bottom: 14%;
+}
+
+.title {
+	margin: 0;
+	font-family: "Cormorant Infant", serif;
+	font-size: 6rem;
+}
+
+.subtitle {
+	font-size: 2.5rem;
+}
+
+/* NAVBAR FOR DESKTOP */
+
+nav {
+	background-color: #1f1f33;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 1% 0 0.65% 0;
+	height: 45px;
+}
+
+.title-link,
+.right-links {
+	display: inline;
+}
+
+.link {
+	text-decoration: none;
+	color: #dededc;
+	font-size: 22px;
+	padding: 0% 4%;
+}
+
+.nav-title {
+	font-family: aAutoSignature;
+	font-size: 2.5rem;
+	padding: 0% 6% 0% 1%;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* NAVBAR AND MENU FOR MOBILE */
+
+/* nav {
+	overflow: hidden;
+	background-color: #1f1f33;
+	color: #dededc;
+	position: relative;
+}
+
+nav .title-text {
+	font-size: 1.25rem;
+	margin-left: 5%;
+}
+
+nav .menu-links {
+	display: none;
+}
+
+nav a {
+	color: #dededc;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+nav a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* PROJECTS SECTION */
+
+.grid {
+	padding: 4% 6%;
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card {
+	text-align: center;
+	padding: 3% 0;
+}
+
+#projects img {
+	width: 300px;
+	height: 300px;
+	border-radius: 7%;
+}
+
+/* SKILLS SECTION */
+
+#skills {
+	padding: 4% 25%;
+}
+
+.list {
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	text-align: left;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+	text-align: center;
+	padding: 2%;
+}
+
+.email-form {
+	display: grid;
+}
+
+.top-box,
+.middle-box,
+.bottom-box {
+	width: 430px;
+	height: 3rem;
+	margin: auto;
+}
+
+.top-box {
+	/* margin-top: 10px; */
+	border-radius: 5px 5px 0 0;
+}
+
+.middle-box {
+	border-radius: 0;
+}
+
+.bottom-box {
+	margin-bottom: 10px;
+	border-radius: 0 0 5px 5px;
+	background-color: aqua;
+}
+
+input[type="textarea"] {
+	height: 8rem;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+	text-align: center;
+}
